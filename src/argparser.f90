@@ -660,9 +660,9 @@ contains
                write (*, *) "Warning: requires ~/.gxtb file"
                error stop
             end if
-            inquire (file='~/.ceh', exist=ex)
+            inquire (file='~/.eeq', exist=ex)
             if (.not. ex) then
-               write (*, *) "Warning: requires ~/.ceh  file"
+               write (*, *) "Warning: requires ~/.eeq  file"
                error stop
             end if
             inquire (file='~/.basisq', exist=ex)
