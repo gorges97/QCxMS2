@@ -115,7 +115,7 @@ contains
       ! CID specific settings
       env%cid_mode = 1 !1: temprun (no collisions) maybe add in the future more runtypes
       env%cid_esi = 0.0_wp ! ionization energy in eV by default 0.0,
-      env%cid_esiatom = 0.0_wp ! ionization energy in eV by default 0.0,
+      env%cid_esiatom = 0.4_wp ! ionization energy in eV by default 0.0,
       env%cid_esiw = 0.2_wp ! width of ionization energy distribution in eV
       env%solv = .false. ! experimental option to include solvent effects in CID
 
